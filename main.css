@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#bg {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: italic small-caps bold 20px/2 cursive;
+}
+
+#logo {
+    max-width: 200px;
+}
+
+#navMenu {
+    padding: 0 6%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#navLinksContainer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    width: 20%;
+}
+
+.navLink:hover {
+    scale: 1.2;
+    transition: 1s;
+}
+
+#header {
+    color: white;
+    font-size: 35px;
+    margin: 10vw;
+    z-index: 1;
+}
+
+#name {
+    text-align: center;
+}
+
+#aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 40%;
+    font-size: 25px;
+    z-index: 1;
+    margin-top: 10vw;
+}
+
+#findUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    z-index: 1;
+    margin-top: 10vw;
+}
+
+#footer {
+    width: 100%;
+    column-gap: 18%;
+    align-items: end;
+    font: italic small-caps bold 20px/2 cursive;
+    display: flex;
+    box-sizing: border-box;
+    padding: 30px 10%;
+    color: white;
+    z-index: 1;
+    margin-top: 5vw;
+}
+
+#insta {
+    display: flex;
+    align-items: end;
+}
+
+#insta img {
+    max-width: 70px;
+}
+
+#insta a {
+    display: flex;
+    align-items: center;
+}
+
+#insta a:hover, .address:hover, #schedule:hover, #logo:hover {
+    scale: 1.3;
+    transition: 2s;
+    cursor: pointer;
+}
