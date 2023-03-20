@@ -84,7 +84,7 @@ a {
 
 #navLinksContainer {
     display: flex;
-    justify-content: space-around;
+    column-gap: 30%;
     font-size: 25px;
     width: 20%;
 }
