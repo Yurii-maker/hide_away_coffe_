@@ -85,7 +85,6 @@ a {
 #navLinksContainer {
     display: flex;
     column-gap: 30%;
-    font-size: 25px;
     width: 20%;
 }
 
@@ -194,5 +193,22 @@ a {
 
     #aboutUs {
         width: 80%
+    }
+
+    .main {
+        font-size: 40px;
+    }
+
+    #navLinksContainer {
+        width: 30%;
+    }
+
+    #header {
+        margin: 20vw;
+        font-size: 50px;
+    }
+
+    #footer {
+        font-size: 30px;
     }
 }
